@@ -1,0 +1,62 @@
+.dark-theme{
+  background-color: rgb(9, 6, 15);
+  }
+  
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  
+  .App{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+  }
+  .botao{
+      padding: 10px;
+      margin: 20px;
+      size: 30px;
+      background-color:  #0170B9;
+      color: black;
+  }
+
+  .p{
+    color: #eee;
+  }
+
+  .TD{
+    padding: 10px;
+  }
+
+  .div{
+    color: #eee;
+    width: 20px;
+  }
+
+
+/* Tabuleiros*/
+
+.tabu{
+  display: flex;
+  flex-direction: column;
+}
+
+.tabuLinha{
+  display: flex;
+  flex-direction: row;
+}
+
+.casa{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 60px;
+  border: 2px solid #000;
+  min-height: 100px;
+}
